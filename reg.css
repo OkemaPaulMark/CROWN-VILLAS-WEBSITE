@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  form{
+    width: 26%;
+    background-color: #999;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name input{
+    padding: 8px 140px 8px 20px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #999;
+  }
+  .email input{
+    padding: 8px 140px 8px 20px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #999;
+  }
+  .password input{
+    padding: 8px 140px 8px 20px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #999;
+  }
+  .check{
+    display: inline-block;
+  }
+  .register{
+    display: block;
+  }
+  .reg{
+    display: flex;
+    justify-content: center;
+  }
+  .register {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: whitesmoke;
+  
+  }
+  .log{
+    display: flex;
+    justify-content: center;
+  }
+
+  .all h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #6c63ff;
+  }
+  .all{
+    padding-top: 10px;
+  }
+
+  @media only screen and (max-width: 600px){
+    form{
+      width: 100%;
+      background-color: rgb(202, 200, 200);
+      padding-bottom: 30px;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (min-width: 600px){
+    form{
+      width: 100%;
+      background-color: rgb(202, 200, 200);
+      padding-bottom: 30px;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    form{
+      width: 100%;
+      background-color: rgb(202, 200, 200);
+      padding-bottom: 30px;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
